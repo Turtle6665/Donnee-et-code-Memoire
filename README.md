@@ -13,7 +13,7 @@ Ce travail évalue l'effet de la mise en sens unique de l'avenue E. Cambier sur 
 La mise en place de la rue à sens unique a entraîné une faible diminution (0,07%) des concentrations moyennes de NO2 à l'échelle du quartier. Cette diminution s'est concentrée principalement dans les zones moins polluées, tandis que des augmentations ont été observées dans les zones déjà plus exposées, notamment des rues canyons. Les implications pour la santé sont probablement très faibles.
 
 Cependant, il est important de souligner que ce travail se concentre uniquement sur l'effet spécifique de cette mesure ponctuelle et ne peut être généralisé à l'ensemble des mesures de Good Move. Des études à plus grande échelle seraient nécessaires pour évaluer l'effet total de ces changements sur la qualité de l'air à Bruxelles.
-
+<!---
 ## Organisation du référentiel
 
 Le référentiel est organisé de la manière suivante :
@@ -51,7 +51,7 @@ Pour reproduire les résultats obtenus dans le mémoire, suivez ces étapes :
 4. [Étape 4 : Visualisation des résultats](/results)
 
 Assurez-vous de respecter les dépendances et versions spécifiées dans le fichier `requirements.txt` ou tout autre fichier décrivant l'environnement de développement utilisé.
-
+-->
 ## Auteur
 
 Diego Nève ([@Turtle6665](https://github.com/Turtle6665))
@@ -63,6 +63,6 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 ## Références
 [1] SOULHAC L. (2023). SIRANE. En ligne sur [http://air.ec-lyon.fr/SIRANE/](http://air.ec-lyon.fr/SIRANE/)
 
-[2] Chang, J. C., & Hanna, S. R. (2004). Air quality model performance evaluation. Meteorology and Atmospheric Physics, 87(1‑3). doi:[10.1007/s00703-003-0070-7](https;//doi.org/10.1007/s00703-003-0070-7)
+[2] Chang, J. C., & Hanna, S. R. (2004). Air quality model performance evaluation. Meteorology and Atmospheric Physics, 87(1‑3). doi:[10.1007/s00703-003-0070-7](https://doi.org/10.1007/s00703-003-0070-7)
 
 [3] Thunis, P., Pederzoli, A., & Pernigotti, D. (2012). Performance criteria to evaluate air quality modeling applications. Atmospheric Environment, 59, 476‑482. doi:[10.1016/j.atmosenv.2012.05.043](https://doi.org/10.1016/j.atmosenv.2012.05.043)
