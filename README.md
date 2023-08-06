@@ -1,6 +1,6 @@
 # Ensemble des données et codes réalisés dans le cadre du mémoire de Diego Nève
 
-![Python](https://img.shields.io/badge/python-2.8-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.8-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 Ce référentiel GitHub contient les données et les codes associés au mémoire de Diego Nève, intitulé "Evaluation de l’effet de la mise en place d’une rue a sens unique sur la concentration en dioxyde d’azote à Bruxelles".
 
