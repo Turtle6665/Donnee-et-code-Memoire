@@ -40,18 +40,25 @@ Le référentiel est organisé de la manière suivante :
 - Le dossier `code/` contient tous les scripts et notebooks utilisés pour le prétraitement, l'analyse, et les expériences réalisées pour le mémoire.
 - Le dossier `results/` contient les résultats générés à partir des analyses. Cela peut inclure des graphiques, des tableaux, ou d'autres sorties importantes. Assurez-vous d'inclure une description de chaque fichier de résultat dans le mémoire.
 - Le fichier `README.md` (ce fichier) fournit une description du contenu du référentiel, des instructions pour reproduire les résultats et tout autre renseignement pertinent.
-
+-->
 ## Comment reproduire les résultats
 
-Pour reproduire les résultats obtenus dans le mémoire, suivez ces étapes :
+Pour reproduire les résultats obtenus dans ce mémoire, suivez ces étapes :
 
-1. [Étape 1 : Description des prérequis logiciels et environnement de développement]
-2. [Étape 2 : Téléchargement des données](/data)
-3. [Étape 3 : Exécution des codes](/code)
-4. [Étape 4 : Visualisation des résultats](/results)
+0. Télécharger le git.
+1. Le Preprocessing (réadaptation de certaines données, ...) est déjà réalisée et déjà introduit dans les inputs SIRANE.
+2. Installer SIRANE. Si vous n'avez pas de version de SIRANE, rendez-vous sur le [site officiel](http://air.ec-lyon.fr/SIRANE/index.php) et demandez une licence.
+    * Copier les executables (sirane.exe et \*.dll) dans le dossier [SIRANE](/SIRANE/)
+    * Copier le fichier SETTINGS (avec les fichiers Defaut.dat) dans le dossier [SIRANE/SETTINGS](/SIRANE/SETTINGS/)
+3. Installer les bonnes version des librairies python ([requirment.txt](requirment.txt)). Je recommande l'utilisation d'anaconda pour installer toutes les dépendances dans environments différent.
+4. Lancer les différents scripts python depuis le répertoire principale :
+```python
+python PythonScipts/effet-de-bord.py
+python PythonScipts/effet-de-bord.py
+```
+Chaque script est indépendant et ne requière pas l'éxécution des précédents. Les résultats de SIRANE sont directement analysé et les figures, tableaux et autres sont enregistées dans le dossier [Resultats](Resultats/)
 
-Assurez-vous de respecter les dépendances et versions spécifiées dans le fichier `requirements.txt` ou tout autre fichier décrivant l'environnement de développement utilisé.
--->
+
 ## Auteur
 
 Diego Nève ([@Turtle6665](https://github.com/Turtle6665))
