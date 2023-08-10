@@ -41,6 +41,9 @@ Le référentiel est organisé de la manière suivante :
 - Le dossier `results/` contient les résultats générés à partir des analyses. Cela peut inclure des graphiques, des tableaux, ou d'autres sorties importantes. Assurez-vous d'inclure une description de chaque fichier de résultat dans le mémoire.
 - Le fichier `README.md` (ce fichier) fournit une description du contenu du référentiel, des instructions pour reproduire les résultats et tout autre renseignement pertinent.
 -->
+## Contributions ?
+Ce travail est fini et les contributions ne sont donc pas ouvertes. Par contre, si vous êtes intéressé de contribuer à `PySiWrap` (un wrapper Python pour SIRANE), rendez-vous dans le [dépôts prévu à cette effet](). Une version plus a jour y est présente.
+
 ## Comment reproduire les résultats
 
 Pour reproduire les résultats obtenus dans ce mémoire, suivez ces étapes :
@@ -51,12 +54,11 @@ Pour reproduire les résultats obtenus dans ce mémoire, suivez ces étapes :
     * Copier les executables (sirane.exe et \*.dll) dans le dossier [SIRANE](/SIRANE/)
     * Copier le fichier SETTINGS (avec les fichiers Defaut.dat) dans le dossier [SIRANE/SETTINGS](/SIRANE/SETTINGS/)
 3. Installer les bonnes version des librairies python ([requirment.txt](requirment.txt)). Je recommande l'utilisation d'anaconda pour installer toutes les dépendances dans environments différent.
-4. Lancer les différents scripts python depuis le répertoire principale :
+4. Lancer les différents scripts python depuis le répertoire principale avec par exemple~:
 ```python
-python PythonScipts/effet-de-bord.py
-python PythonScipts/effet-de-bord.py
+python PythonScipts/Effet-de-bord/effet-de-bord.py
 ```
-Chaque script est indépendant et ne requière pas l'éxécution des précédents. Les résultats de SIRANE sont directement analysé et les figures, tableaux et autres sont enregistées dans le dossier [Resultats](Resultats/)
+Les résultats de SIRANE sont directement analysé et les figures, tableaux et autres sont enregistées dans le dossier [Resultats](Resultats/)
 
 
 ## Auteur

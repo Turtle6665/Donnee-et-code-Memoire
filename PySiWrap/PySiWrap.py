@@ -1,3 +1,8 @@
+"""
+Ce script permet de lancer et parametrer SIRANE depuis un script python.
+/!\ Une version plus à jour est disponible dans le github dédiée.
+"""
+
 import subprocess
 from os import makedirs
 from os.path import exists,isfile
@@ -15,6 +20,7 @@ except:
     print("Gdal not found, please install it to use transph_grd() !")
 
 pathToSirane = "SIRANE/"
+PySiWrapPath = "PySiWrap"
 
 def get_input_keys(input_key_file):
     with io.open(f"{input_key_file}",'r',encoding='utf8') as f:
@@ -161,7 +167,7 @@ class Model(object):
         data = sprip_v(np.array(data.apply(sepdf).to_list()))
         data = pd.DataFrame(data, columns=["Name","Value"])
         # add the keyyysss
-        keys = get_input_keys("DefaultParam/Don_Defaut_FR.dat")
+        keys = get_input_keys(f"{PySiWrapPath}/DefaultParam/Don_Defaut_FR.dat")
         data = data.merge(keys, how="right", right_on="Description", left_on="Name").reindex(columns=["Description","Key","Value"])
         data.index = data.Key
         del data["Key"]
@@ -209,7 +215,7 @@ class Model(object):
         data = sprip_v(np.array(data.apply(sepdf).to_list()))
         data = pd.DataFrame(data, columns=["Name","Value"])
         # add the keyyysss
-        keys = get_input_keys("DefaultParam/Site_Defaut_FR.dat")
+        keys = get_input_keys(f"{PySiWrapPath}/DefaultParam/Site_Defaut_FR.dat")
         data = keys.merge(data, how="left", left_on="Description", right_on="Name").reindex(columns=["Description","Key","Value"])
         data.index = data.Key
         del data["Key"]
