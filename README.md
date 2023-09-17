@@ -13,38 +13,13 @@ Ce travail évalue l'effet de la mise en sens unique de l'avenue E. Cambier sur 
 La mise en place de la rue à sens unique a entraîné une faible diminution (0,07%) des concentrations moyennes de NO2 à l'échelle du quartier. Cette diminution s'est concentrée principalement dans les zones moins polluées, tandis que des augmentations ont été observées dans les zones déjà plus exposées, notamment des rues canyons. Les implications pour la santé sont probablement très faibles.
 
 Cependant, il est important de souligner que ce travail se concentre uniquement sur l'effet spécifique de cette mesure ponctuelle et ne peut être généralisé à l'ensemble des mesures de Good Move. Des études à plus grande échelle seraient nécessaires pour évaluer l'effet total de ces changements sur la qualité de l'air à Bruxelles.
-<!---
-## Organisation du référentiel
 
-Le référentiel est organisé de la manière suivante :
-
-```
-├── data/
-│   ├── dataset1.csv
-│   ├── dataset2.xlsx
-│   └── ...
-├── code/
-│   ├── preprocessing.py
-│   ├── analysis.ipynb
-│   └── ...
-├── results/
-│   ├── figures/
-│   │   ├── plot1.png
-│   │   ├── plot2.png
-│   │   └── ...
-│   └── summary.txt
-└── README.md
-```
-
-- Le dossier `data/` contient les ensembles de données utilisés dans le cadre du mémoire. Veillez à inclure des explications sur les données et leur format dans le mémoire.
-- Le dossier `code/` contient tous les scripts et notebooks utilisés pour le prétraitement, l'analyse, et les expériences réalisées pour le mémoire.
-- Le dossier `results/` contient les résultats générés à partir des analyses. Cela peut inclure des graphiques, des tableaux, ou d'autres sorties importantes. Assurez-vous d'inclure une description de chaque fichier de résultat dans le mémoire.
-- Le fichier `README.md` (ce fichier) fournit une description du contenu du référentiel, des instructions pour reproduire les résultats et tout autre renseignement pertinent.
--->
 ## Contributions ?
-Ce travail est fini et les contributions ne sont donc pas ouvertes. Par contre, si vous êtes intéressé de contribuer à `PySiWrap` (un wrapper Python pour SIRANE), rendez-vous dans le [dépôts prévu à cette effet](). Une version plus a jour y est présente.
+Ce travail est fini et les contributions ne sont donc pas ouvertes. Par contre, si vous êtes intéressé de contribuer à `PySiWrap` (un wrapper Python pour SIRANE), rendez-vous dans le [dépôts prévu à cette effet](https://github.com/Turtle6665/PySiWrap). Une version plus a jour y est présente.
 
 ## Comment reproduire les résultats
+
+Attention, une majorité des données initiales ne sont pas présentes pour des raisons de droit d'auteur.
 
 Pour reproduire les résultats obtenus dans ce mémoire, suivez ces étapes :
 
